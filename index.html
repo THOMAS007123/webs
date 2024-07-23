@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<title>Home</title>
+<head>
+<link rel="stylesheet"
+href="t.css"/>
+</head>
+ <body style = "background:black">
+<div id="abc">
+<nav>
+<ul>
+<li>
+ <li><a href="index.html">Home</a></li>
+ <li><a href="#about">About</a></li>
+ <li><a href="#buy">Product</a></li>
+
+    <a href="#" class="al">Login</a></li>
+</li>
+</u>    
+</nav>
+<br><br><br><br><br><br><br><br><br>
+<h4>Holiday the smart way</h1><br><br>
+<h5>make the season bright with help from nova app & more</h5>
+<br><br>
+<a href="#buy" class="r5">Shop smartwatch -></a>
+</div>
+<br><br>
+<div class="ac">
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <h1>NOVA  WATCH 3</h1><br><br><br>
+  <h1>A great deal to love</h1><br><br><br>
+<h2>from $299 </h2><br><br><br><br>
+<a href="#buy" class="alr">Buy</a></li>
+</div>
+</div>
+<div class="acr">
+  <br>
+  <h3>SMART WATCHES</h3>
+<a id="buy"></a>
+  <br><br><br><br><br>
+  <div class="polaroid">
+    
+    <div class="container">
+      <img src="new-smartwatch-balancing-with-hand.jpg" style="width:100%">
+      <a href="#buy">buy now</a>
+    </div>
+  </div>
+  <div class="polaroid">
+    <img src="tech-device-with-nature-background.jpg" style="width:100%">
+    
+    <div class="container">
+      <a href="">buy now</a>
+    </div>
+  </div>
+  <div class="polaroid">
+    
+    <img src="boat-storm-smart-watch-250x250.png" style="width:100%">
+    <div class="container">
+    <a href="">buy now</a>
+    </div>
+  </div>
+  <div class="polaroid">
+    <img src="tech-device-with-nature-background.jpg" style="width:100%">
+    <div class="container">
+      <a href="">buy now</a>
+    </div>
+  </div>
+  <div class="polaroid">
+    <img src="boat-storm-smart-watch-250x250.png" style="width:100%">
+    <div class="container">
+      <a href="">buy now</a>
+    </div>
+  </div>
+  <div class="polaroid">
+    <img src="new-smartwatch-balancing-with-hand.jpg" style="width:100%">
+    <div class="container">
+    <a href="">buy now</a>
+    </div>
+  </div>
+</div>
+<div class="act">
+  <br><br>
+  <h3>About us</h3>
+  <a id="about"></a>
+  <br><br>
+  <div class="h7">
+  We are a team of passionate and innovative engineers who believe that smart watches can revolutionize the way we interact with technology and the world around us. We have designed and developed a smart watch that is not only stylish and functional,but also affordable and accessible to everyone. Our smart watch is compatible with various operating systems and devices, and offers a range of features and applications that can enhance your productivity, health, entertainment, and communication. Whether you want to track your fitness goals, monitor your heart rate, listen to music, receive notifications, make calls, or access your favorite apps, our smart watch can do it all. Our vision is to create a smart watch that can become your personal assistant, your companion, and your friend. We are always striving to improve our product and service, and we welcome your feedback and suggestions. Thank you for choosing us as your smart watch provider. We hope you enjoy our product as much as we do
+</div>
+</div>
+<script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); 
+    }
+    </script>
+</body>
+</html>
